@@ -14,8 +14,9 @@ body {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: #828c92;
 }
 
 .wrapper {
@@ -30,6 +31,8 @@ a {
     justify-content: center;
     align-items: center;
     align-content: space-between;
+    flex-flow: column;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -78,6 +81,7 @@ nav ul li a {
     font-size: 14px;
     font-weight: normal;
     color: #828c92;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
@@ -115,7 +119,7 @@ h1 {
 }
 
 .links {
-    color: #4b5c66;
+    color: #9aa0a3;
 }
 .stats-links {
     color: #4b5c66;
