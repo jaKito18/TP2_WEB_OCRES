@@ -19,11 +19,15 @@ a {
     color: #828c92;
 }
 
+.button{
+    color: #a0aab1;
+}
 .wrapper {
     padding: 25px 0;
     justify-content: space-around;
     align-items: center;
 }
+
 
 .container {
     display: flex;
@@ -112,10 +116,12 @@ h1 {
 .name p { 
     color: #a0aab1;
     font-size: 12px;
+    display: inline;
 }
 
 .name p img { 
     margin-left: 12px;
+    display: inline;
 }
 
 .links {
@@ -127,6 +133,7 @@ h1 {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 .stats-links span, .stats-links a {
@@ -182,6 +189,8 @@ input.submit {
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
 }
+
+
 
 .station:hover {
     background-color: #0A90D5;
