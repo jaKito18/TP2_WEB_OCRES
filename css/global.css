@@ -11,6 +11,7 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    font-size: 100%;
 }
 
 a {
@@ -131,6 +132,7 @@ h1 {
 
 .links {
     color: #9aa0a3;
+    justify-content: right;
 }
 
 .links a {
@@ -256,9 +258,30 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
+
+
 @media screen and (max-width: 450px){
     .name p img{
         display:none;
+    }
+
+}
+
+@media screen and (min-width: 450px){
+    .body{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .body{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .body{
+        font-size: 1.5em;
     }
 }
 
@@ -268,24 +291,3 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     }
 }
 
-
-/*.features{width: 33%}
-
-
-@media screen and(max-width:768px)
-{
-    .features{width: 100%}
-}
-
-@media screen and(max-width:992px)
-{
-    .features{width: 50%}
-}
-
-@media screen 
-and(min-device-width:768px)
-and(max-device-width:1024px)
-and(orientation: portrait)
-{
-    .sidebar{width: 100%}
-}*/
