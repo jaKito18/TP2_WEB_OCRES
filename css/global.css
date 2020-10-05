@@ -30,7 +30,6 @@ a {
 
 
 .container {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -43,6 +42,8 @@ a {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
+
 
 .item {
     order: 2;
@@ -136,6 +137,8 @@ h1 {
 .aside {
     justify-content: center;
 }
+
+
 
 .links {
     color: #9aa0a3;
@@ -284,10 +287,12 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     }
 }
 
+
 @media screen and (min-width: 450px){
     .body{
         font-size: 1.1em;
     }
+
 }
 
 @media screen and (max-width: 551px){
@@ -296,11 +301,34 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     }
 }
 
-
-
 @media screen and (min-width: 600px){
     .body{
         font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .name-photo{
+        width: 8.33%;
+        float: none;
+    }
+    .name{
+        width: 91.67%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .zoom{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 990px){
+    .zoom{
+        float: none;
+        width: 75%;
     }
 }
 
