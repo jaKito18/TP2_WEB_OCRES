@@ -71,7 +71,7 @@ header .user a {
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.25em;
 }
 
 
@@ -180,7 +180,13 @@ h2 {
     color: #4b5c66;
 }
 .help h2{
-    font-size:1.6;
+    font-size: 1.6em;
+}
+
+.row h2{
+    font-size: 1.2em;
+    justify-content: flex-start ;  
+    margin-left: 0px;  
 }
 
 header form {
@@ -312,9 +318,38 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
         width: 8.33%;
         float: none;
     }
+    .name-photo img{
+        margin-left: 5px;
+    }
     .name{
-        width: 91.67%;
+        width: 100%;
         float: none;
+    }
+    .name h1{
+        margin-left: 25px;
+    }
+    .name p{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .name-photo{
+        width: 8.33%;
+        float: none;
+    }
+    .name-photo img{
+        margin-left: 5px;
+    }
+    .name{
+        width: 100%;
+        float: none;
+    }
+    .name h1{
+        margin-left: 40px;
+    }
+    .name p{
+        margin-left: 40px;
     }
 }
 
